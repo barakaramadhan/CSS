@@ -1,0 +1,29 @@
+.text h1{
+  background-color: #6b9080;
+  text-align: center;
+  color: #f6fff8;
+  font-family: cursive;
+  border-radius: 10px;
+}
+
+.text-align{
+  text-align: center;
+}
+.text-Direction{
+    direction: rtl;
+}
+.text-decoration{
+    text-decoration: line-through;
+}
+.text-transform{
+    text-transform: capitalize ;
+}
+.text-Spacing{
+    word-spacing: 15px;
+}
+.text-Overflow{
+    overflow: scroll ;
+}
+.text-Shadow{
+    text-shadow: 1px 1px 2px gold;
+}

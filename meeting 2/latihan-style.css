@@ -1,0 +1,33 @@
+#banner{
+    background-color: blueviolet;
+    padding: 10em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 20px;
+
+   
+}
+#banner h1{
+    color: yellow;
+    text-align: center;
+    font-size: 5em;
+}
+#partner{
+    background-color: blueviolet;
+    padding-bottom: 10em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 20px;
+}
+#partner h1{
+    color: yellow;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 2em;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: small;
+}

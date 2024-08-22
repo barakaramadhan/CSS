@@ -1,0 +1,19 @@
+.judul-banner{
+    background-color: aqua;
+    /* text-align: left; */
+    direction: rtl;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 2px 6px 0px rgba(0,0,0,0.23); 
+    box-shadow: 5px 2px 6px 0px rgba(0,0,0,0.23);
+}
+
+.paragraf-decoration{
+    /* text-decoration: line-through red dashed;
+    text-transform: capitalize;
+    letter-spacing: -1px */
+    line-height: 10.5em15px;
+    word-spacing: 20px;
+
+}

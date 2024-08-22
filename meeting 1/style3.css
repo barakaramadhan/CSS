@@ -1,0 +1,41 @@
+header{
+    background-color: rgb(250, 145, 7);
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin: 20px;
+    border-radius: 10px;
+}
+.coffee{
+    background-color: rgb(250, 145, 7);
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin: 20px;
+    border-radius: 10px;
+    border: 10px solid yellow !important;
+}
+.tea{
+    background-color: rgb(250, 145, 7);
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin: 20px;
+    border-radius: 10px;
+    border: 10px solid green !important;
+}
+.juice{
+    background-color: rgb(250, 145, 7);
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin: 20px;
+    border-radius: 10px;
+    border: 10px solid red !important;
+}
+footer{
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
