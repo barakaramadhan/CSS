@@ -1,20 +1,39 @@
-.container-left, .container-right {
-    width: 45%; /* adjust the width to your liking */
-    margin: 20px; /* add some margin to create space between the containers */
-    padding: 20px; /* add some padding to create space between the content and the border */
-    border: 1px solid #ddd; /* add a border to the containers */
-    border-radius: 10px; /* add a rounded corner to the containers */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a subtle shadow to the containers */
-    background-color: #faebd7; /* set the background color to antiquewhite */
-    display: inline-block; /* make the containers display side by side */
-    vertical-align: top; /* align the containers to the top */
-  }
-  
-  .container-left {
-    float: left; /* make the left container float to the left */
-  }
-  
-  .container-right {
-    float: right; /* make the right container float to the right */
-  }
-    
+/* CSS Code (in style.css file) */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #f0f0f0;
+}
+
+nav {
+  background-color: navy;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+nav a {
+  font-family: cursive;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  transition: color 0.2s ease;
+  font-size: large;
+}
+
+nav a:hover {
+  color: gold;
+}
+div {
+  overflow: auto; /* to contain the floated elements */
+}
+
+img {
+  float: left; /* float the image to the left */
+  margin: 10px; /* add some margin to the image */
+}
+
+p {
+  margin-left: 120px; /* add some margin to the text to make room for the image */
+}

@@ -1,0 +1,28 @@
+header h1{
+    text-align: center;
+    font-family: cursive;
+}
+section{
+    text-align: center;
+    background-color: #134B70;
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    font-family: cursive;
+    box-shadow: 5px 5px 27px 6px rgba(23,20,20,0.48); 
+    box-shadow: 5px 5px 27px 6px rgba(23,20,20,0.48);
+}
+img{
+    border-radius: 50%;
+    width: 275px;
+    margin: 20px;
+}
+.Information a{
+    color: white;
+    text-decoration: none;
+}
+.Information a:hover{
+    color: gold;
+
+}
