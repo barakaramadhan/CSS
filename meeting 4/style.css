@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+</style>
+
+h1{
+    font-size: 16px;
+}
+.paragraf{
+    font-size: xx-large;
+}
+p{
+    /* mengatur ukuran font */
+    /* font-size: 24; */
+    font-size: larger;
+
+    /* mengatur ketebalan font */
+    /* font-weight: 900; */
+    font-weight: bold;
+
+    /* mengatur font-style */
+    /* font-style: italic; */
+    /* font-style: oblique; */
+    font-style: normal;
+
+    /* mengatur jenis font */
+    /* font-family: 'calibri'; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: "Caveat", cursive;
+    
+}
