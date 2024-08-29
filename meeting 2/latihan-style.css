@@ -12,6 +12,40 @@
     text-align: center;
     font-size: 5em;
 }
+
+#box-1{
+    background-color: aqua;
+}
+#box-1 .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#box-1 .container p{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #partner{
     background-color: blueviolet;
     padding-bottom: 10em;

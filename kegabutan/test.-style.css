@@ -1,0 +1,12 @@
+h1{
+    border: 3px solid red;
+    text-align: center;
+    border-radius: 10px;
+}
+.contoh{
+    border: 20px solid red;
+    border-radius: 20px;
+}
+image{
+    width: 40%;
+}

@@ -1,0 +1,49 @@
+.garis{
+    text-align: center;
+    font-family: cursive;
+    font-size: large;
+    border-bottom: 2px solid black;
+    padding-top: 25px;
+    margin-bottom: 25px;
+
+}
+.garis-tepi{
+    text-align: center;
+    font-family: cursive;
+    font-size: large;
+    border-left: 2px solid blue;
+    border-right: 2px solid blue;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+.jenis-garis{
+    border: 2px;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+.jenis-garis.solid{
+    border-style: solid;   
+}
+.jenis-garis.dashed{
+    border-style: dashed;
+}
+.jenis-garis.dotted{
+    border-style: dotted;
+}
+.jenis-garis.double{
+    border-style: double;
+}
+.rounded-corner {
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-family: cursive;
+    padding: 20px;
+}
+.gambar-garis{
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+}
