@@ -1,15 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Navigasi dan Container</title>
-	<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portofolio Saya</title>
+	<link rel="stylesheet" href="./gabut-style.css">
 </head>
 <body>
-	<!-- Navigation Bar -->
-	<nav>
-		<a href="#">Home</a>
-		<a href="#">About</a>
-		<a href="#">Contact</a>
-	</nav>
+    <header>
+        <h1>Selamat Datang di Portofolio Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Tentang Saya</h2>
+            <p>Halo! Saya seorang web developer yang bersemangat dalam menciptakan website yang menarik dan fungsional. Saya memiliki pengalaman dalam berbagai teknologi web seperti HTML, CSS, JavaScript, dan framework seperti React dan Angular. Saya selalu berusaha untuk belajar dan mengembangkan keterampilan saya untuk menciptakan solusi yang inovatif dan efektif.</p>
+        </section>
+        <section id="projects">
+            <h2>Proyek</h2>
+            <div class="project">
+                <h3>Proyek 1: Website E-commerce</h3>
+                <p>Saya mengembangkan sebuah website e-commerce menggunakan React dan Node.js. Website ini memiliki fitur seperti pencarian produk, keranjang belanja, dan sistem pembayaran yang aman.</p>
+            </div>
+            <div class="project">
+                <h3>Proyek 2: Aplikasi Manajemen Tugas</h3>
+                <p>Aplikasi ini dibuat menggunakan Angular dan Firebase. Aplikasi ini membantu pengguna untuk mengelola tugas mereka dengan fitur seperti penjadwalan, pengingat, dan pelacakan kemajuan.</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Kontak</h2>
+            <p>Jika kamu ingin menghubungi saya, silakan kirim email ke <a href="mailto:email@example.com">email@example.com</a> atau hubungi saya melalui LinkedIn di <a href="https://www.linkedin.com/in/username">linkedin.com/in/username</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Portofolio Saya</p>
+    </footer>
 </body>
 </html>

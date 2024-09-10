@@ -1,0 +1,22 @@
+ul.navigation{
+    list-style-type: none;
+    padding-left: 40%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #405D72;
+}
+
+ul.navigation li{
+    float: left;
+    /* background-color: green; */
+}
+ul.navigation li a{
+   display: flex;
+   color: #FFDB00;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+ul.navigation li a:hover{
+    color: white;
+}

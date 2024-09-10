@@ -1,0 +1,30 @@
+.banner{
+    background-color: #405D72;
+    overflow: auto;
+}
+
+.banner img{
+    float: left;
+    margin-right: 20px;
+}
+
+.text{
+    color: white;
+}
+
+.text-2{
+    clear: both;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.banner-2{
+    background-color: #405D72;
+    overflow: auto;
+}
+
+.banner-2 img{
+    float: right;
+    margin-right: 20px;
+}
