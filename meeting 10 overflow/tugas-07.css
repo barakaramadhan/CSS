@@ -1,0 +1,35 @@
+.yang-membungkus{
+    width: 300px;
+}
+
+
+.Tab-navigasi{
+    display: flex;
+    list-style: none;
+    /* background-color: azure; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    white-space: nowrap;
+}
+
+.Tab-navigasi ul{
+    margin-left: 20px;
+}
+
+.Tab-navigasi li{
+    background-color: #405D72;
+    padding-left: 20px;
+    border-right: solid 1px white;
+    color: white;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.description{
+    background-color: #405D72;
+    color: white;
+    overflow: scroll;
+    padding-bottom: 50px;
+}

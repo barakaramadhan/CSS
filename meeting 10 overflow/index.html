@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overflow</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- penjelasan overflow -->
+    <h1>Penjelasan Overflow</h1>
+    <p>
+      Apakah Anda pernah mengalami lebar dan tinggi pada suatu elemen melebihi
+      dari kontent?. Ruang yang tidak cukup untuk mengakomodasi konten maka
+      secara otomatis akan meluber ke luar wadah. Dengan properti CSS overflow
+      semuanya bisa diatasi, Anda bisa memilih apakah konten akan dipotong,
+      membuat bilah gulir atau menampilkan konten keluar dari elemen blok.
+      Kemungkinan nilai dari properti ini adalah visible, hidden, scroll dan
+      auto.
+    </p>
+    <hr />
+    <!-- Overflow dengan nilai visible -->
+    <h1>Overflow visible</h1>
+    <p>
+      Secara default, nilai dari properti overflow adalah visible, yang berarti
+      bahwa itu tidak dipotong dan bisa meluber keluar dari wadah elemen.
+    </p>
+    <div class="visible">
+      <p>
+        Secara default, nilai dari properti overflow adalah visible, yang
+        berarti bahwa itu tidak dipotong dan bisa meluber keluar dari wadah
+        elemen.
+      </p>
+    </div>
+    <hr />
+    <!-- Overflow dengan nilai hidden -->
+    <h1>Overflow Hidden</h1>
+    <p>
+      Jika Anda ingin menyembunyikan konten yang keluar dari wadahnya, yang
+      dimana lebar dan tinggi pada suatu elemen melebihi dari konten, maka
+      dengan nilai hidden lah solusinya. Nilai hidden akan memotong konten yang
+      meluber keluar dan sisanya akan disembunyikan.
+    </p>
+    <div class="Hidden">
+      <p>
+        Jika Anda ingin menyembunyikan konten yang keluar dari wadahnya, yang
+        dimana lebar dan tinggi pada suatu elemen melebihi dari konten, maka
+        dengan nilai hidden lah solusinya. Nilai hidden akan memotong konten
+        yang meluber keluar dan sisanya akan disembunyikan.
+      </p>
+    </div>
+    <hr />
+    <!-- Overflow dengan nilai scroll -->
+    <h1>Overflow Scroll</h1>
+    <p>
+      Jika Anda ingin menampilkan konten walaupun lebar dan tinggi pada suatu
+      elemen melebihi dari konten, maka dengan nilai scroll lah solusinya.
+      Dengan nilai scroll konten yang meluber akan dipotong dan scrollbar akan
+      ditambahkan untuk menggulir didalam kotak
+    </p>
+    <div class="Scroll">
+      <p>
+        Jika Anda ingin menampilkan konten walaupun lebar dan tinggi pada suatu
+        elemen melebihi dari konten, maka dengan nilai scroll lah solusinya.
+        Dengan nilai scroll konten yang meluber akan dipotong dan scrollbar akan
+        ditambahkan untuk menggulir didalam kotak
+      </p>
+    </div>
+    <hr />
+    <!-- Overflow dengan nilai auto -->
+    <h1>Overflow Auto</h1>
+    <p>
+      Jika Anda menggunakan properti overflow dengan nilai scroll, maka akan
+      menambahkan scrollbar secara horizontal dan vertikal. Namun sayangnya akan
+      menambahkan scrollbar meskipun konten tidak meluber. Untuk solusi tersebut
+      maka nilai auto lah yang bisa diandalkan. Hampir sama kegunaannya dengan
+      nilai scroll, hanya saja dengan nilai auto akan menambahkan scrollbar
+      secara vertikal jika konten meluber keluar.
+    </p>
+    <div class="Auto">
+      <p>
+        Jika Anda menggunakan properti overflow dengan nilai scroll, maka akan
+        menambahkan scrollbar secara horizontal dan vertikal. Namun sayangnya
+        akan menambahkan scrollbar meskipun konten tidak meluber. Untuk solusi
+        tersebut maka nilai auto lah yang bisa diandalkan. Hampir sama
+        kegunaannya dengan nilai scroll, hanya saja dengan nilai auto akan
+        menambahkan scrollbar secara vertikal jika konten meluber keluar.
+      </p>
+    </div>
+    <hr />
+
+    <!-- Overflow y -->
+    <h1>Overflow y</h1>
+    <p>
+      Properti overflow-y mengontrol overflow di sepanjang sumbu vertikal
+      viewport perangkat. Oleh karena itu overflow-y dapat bergeser ke atas dan
+      ke bawah.
+    </p>
+    <div class="sumbu-y">
+      <p>
+        Properti overflow-y mengontrol overflow di sepanjang sumbu vertikal
+        viewport perangkat.<b
+          >Oleh karena itu overflow-y dapat bergeser ke atas dan ke bawah. Lorem
+          ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis,
+          impedit ipsum. Perspiciatis quam veniam eligendi minus laborum,
+          quibusdam repudiandae velit ipsam quaerat rerum, est magnam facilis
+          porro ea? Quas, eaque ducimus. Dolore nulla itaque deserunt atque
+          eaque aperiam eveniet eligendi, obcaecati dignissimos soluta autem
+          quasi saepe culpa repellendus, facilis tenetur.</b
+        >
+      </p>
+    </div>
+    <!-- Overflow x -->
+    <h1>Overflow x</h1>
+    <p>
+      Sedangkan properti overflow-x mengontrol overflow di sepanjang sumbu
+      horizontal viewport perangkat. Oleh karena itu overflow-x dapat bergeser
+      ke kiri dan kanan.
+    </p>
+    <div class="sumbu-x">
+      <p>
+        Sedangkan properti overflow-x mengontrol overflow di sepanjang sumbu
+        horizontal viewport perangkat. Oleh karena itu overflow-x dapat bergeser
+        ke kiri dan kanan. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Nulla, exercitationem at, molestiae eius consequatur minima
+        accusamus corrupti numquam laborum deleniti dicta. Dicta possimus
+        recusandae corporis quod numquam eos consectetur excepturi molestiae,
+        blanditiis tempora. Corrupti aperiam iusto mollitia veritatis,
+        distinctio fugit quaerat in molestiae, impedit quidem blanditiis quod ex
+        dolor consequuntur?
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+.visible{
+    background-color: #F9E400;
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    overflow: visible;
+    border-radius: 5px;
+}
+
+hr{
+    margin-top: 100px;
+}
+
+.Hidden{
+    background-color: #F9E400;
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 5px; 
+}
+
+.Scroll{
+    background-color: #F9E400;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    overflow: scroll;
+    border-radius: 5px; 
+}
+.Auto{
+    background-color: #F9E400;
+    width: 200px;
+    height: 500px;
+    padding: 20px;
+    overflow: Auto;
+    border-radius: 5px; 
+}
+
+.sumbu-y{
+    background-color: #F9E400;
+    width: 200px;
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 5px; 
+}
+.sumbu-x{
+    background-color: #F9E400;
+    width: 200px;
+    height: 200px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    border-radius: 5px;
+    
+    white-space: nowrap;
+}
