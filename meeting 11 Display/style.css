@@ -1,0 +1,50 @@
+a{
+    background-color: chocolate;
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+div{
+    background-color: aquamarine;
+    /* width: 100px;  */
+}
+
+p{
+    background-color: navy;
+    color: white;
+}
+
+span{
+    background-color: red;
+}
+
+label{
+    background-color: blueviolet;
+    color: white;
+    width: 100px;
+    display: block;
+}
+
+h1{
+    background-color: blueviolet;
+    color: white;
+    display: inline-block;
+    width: 100px;
+}
+h2{
+    background-color: bisque;
+    display: none;
+}
+
+.visib{
+    background-color: rgb(234, 133, 10);
+}
+
+.visib-beda{
+    visibility: hidden;
+}
+
+.visib-none{
+    display: none;
+}
