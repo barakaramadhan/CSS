@@ -276,67 +276,85 @@ button:hover {
   background-color: rgb(217, 128, 10);
 }
 
-.membantu-santri h1 {
-  color: #4d4d4d;
-  font-size: 25px;
-  margin-bottom: 15px;
-  letter-spacing: 1px;
+
+/* membantu santri */
+#membantu-santri-mengupgrade-dirinya{
+  background-color: #F5F7FA;
+  height: 300px;
 }
 
-.membantu-santri h2 {
-  color: #faa613;
-  font-size: 25px;
-  margin-bottom: 15px;
-  letter-spacing: 1px;
-  margin-top: -15px;
-}
-
-.membantu-santri p {
-  /* background-color: #faa613; */
-  color: #717171;
-  font-size: 11px;
-  margin-bottom: 20px;
-  letter-spacing: 1px;
-}
-
-#upgrade {
-  background-color: #f5f7fa;
-}
-
-.container-upgrade {
-  /* background-color: #40597e; */
-  margin-left: 5%;
-  margin-right: 10%;
+.container-bantu-santri{
+  background-color: #faa613;
+  padding: 50px;
   display: flex;
   justify-content: space-between;
 }
 
-.santri {
-  /* background-color: #0e65e9; */
+.pembungkus-judul h1{
+  font-size: 30px;
+  color: #4D4D4D;
+  font-weight: 700;
+}
+
+.pembungkus-judul h2{
+  font-size: 30px;
+  color: #FAA613;
+  font-weight: 700;
+}
+
+.pembungkus-judul p{
+  color: #18191F;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.membantu-santri{
+  background-color: aqua;
+}
+
+.icon{
+  background-color: rgb(130, 247, 5);
+  padding: 5px;
   display: flex;
 }
 
-.santri-komentar img {
-  width: 32px;
-  height: 21px;
-}
-.santri-komentar-2 img {
-  width: 22px;
-  height: 25px;
+.isi{
+  background-color: green;
+  height: 500px;
 }
 
-.jumlah {
-  padding-left: 10px;
-  color: #4d4d4d;
+.pembungkus-isi-1{
+  background-color: rgb(238, 19, 19);
+}
+
+.pembungkus-semua-1{
+  padding-bottom: 50px;
+  margin-right: 50px;
+  display: flex;
+}
+
+.pembungkus-deskripsi h3{
+  color: #4D4D4D;
   font-weight: 700;
   font-size: 20px;
 }
-
-.pembungkus-santri-komentar p {
-  padding-left: 30px;
+.pembungkus-deskripsi p{
   color: #717171;
-  font-size: 11px;
+  font-weight: 400;
+  font-size: 12px;
 }
+
+.pembungkus-isi-2{
+  background-color: yellow;
+}
+
+.pembungkus-semua-3{
+  padding-bottom: 50px;
+}
+
+
+
+
 
 #height {
   height: 50vh;
@@ -351,6 +369,10 @@ button:hover {
   }
 
   .list-navigasi{
+    display: none;
+  }
+
+  .container-banner img{
     display: none;
   }
 }
