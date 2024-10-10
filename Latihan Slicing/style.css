@@ -75,7 +75,7 @@
 }
 #banner {
   /* background-color: #f5f7fa; */
-  background-image:url(./assets/pondok.png);
+  background-image: url(./assets/pondok.png);
   height: 85vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -280,62 +280,61 @@ button:hover {
   background-color: rgb(217, 128, 10);
 }
 
-
 /* membantu santri */
-#membantu-santri-mengupgrade-dirinya{
-  background-color: #F5F7FA;
+#membantu-santri-mengupgrade-dirinya {
+  background-color: #f5f7fa;
   height: 300px;
 }
 
-.container-bantu-santri{
+.container-bantu-santri {
   /* background-color: #faa613; */
   padding: 50px;
   display: flex;
   justify-content: space-between;
 }
 
-.membantu-santri{
+.membantu-santri {
   padding-top: 40px;
 }
 
-.pembungkus-judul h1{
+.pembungkus-judul h1 {
   font-size: 30px;
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-weight: 700;
 }
 
-.pembungkus-judul h2{
+.pembungkus-judul h2 {
   font-size: 30px;
-  color: #FAA613;
+  color: #faa613;
   font-weight: 700;
 }
 
-.pembungkus-judul p{
-  color: #18191F;
+.pembungkus-judul p {
+  color: #18191f;
   font-weight: 400;
   font-size: 12px;
 }
 
-.membantu-santri{
+.membantu-santri {
   /* background-color: aqua; */
 }
 
-.icon{
+.icon {
   /* background-color: rgb(130, 247, 5); */
   padding: 5px;
   display: flex;
 }
 
-.isi{
+.isi {
   /* background-color: green; */
   height: 500px;
 }
 
-.pembungkus-isi-1{
+.pembungkus-isi-1 {
   /* background-color: rgb(238, 19, 19); */
 }
 
-.pembungkus-semua-1{
+.pembungkus-semua-1 {
   padding-bottom: 50px;
   margin-right: 50px;
   display: flex;
@@ -343,29 +342,29 @@ button:hover {
   /* background-color: blue; */
 }
 
-.pembungkus-deskripsi{
+.pembungkus-deskripsi {
   padding-left: 10px;
   padding-bottom: 4px;
 }
 
-.pembungkus-deskripsi h3{
-  color: #4D4D4D;
+.pembungkus-deskripsi h3 {
+  color: #4d4d4d;
   font-weight: 700;
   font-size: 20px;
 }
-.pembungkus-deskripsi p{
+.pembungkus-deskripsi p {
   color: #717171;
   font-weight: 400;
   font-size: 12px;
 }
 
-.pembungkus-deskripsi-2{
+.pembungkus-deskripsi-2 {
   padding-left: 10px;
   padding-bottom: 4px;
   padding-top: 10px;
 }
 
-.pembungkus-semua-2{
+.pembungkus-semua-2 {
   padding-bottom: 50px;
   margin-right: 50px;
   display: flex;
@@ -373,8 +372,8 @@ button:hover {
   /* background-color: #d7c7aa; */
 }
 
-.pembungkus-deskripsi-2 h3{
-  color: #4D4D4D;
+.pembungkus-deskripsi-2 h3 {
+  color: #4d4d4d;
   font-weight: 700;
   font-size: 20px;
   align-items: center;
@@ -386,12 +385,11 @@ button:hover {
   font-size: 12px;
 }
 
-
-.pembungkus-isi-2{
+.pembungkus-isi-2 {
   /* background-color: yellow; */
 }
 
-.pembungkus-semua-3{
+.pembungkus-semua-3 {
   padding-bottom: 50px;
   margin-right: 50px;
   display: flex;
@@ -399,29 +397,29 @@ button:hover {
   /* background-color: blue; */
 }
 
-.pembungkus-deskripsi-3{
+.pembungkus-deskripsi-3 {
   padding-left: 10px;
   padding-bottom: 4px;
 }
 
-.pembungkus-deskripsi-3 h3{
-  color: #4D4D4D;
+.pembungkus-deskripsi-3 h3 {
+  color: #4d4d4d;
   font-weight: 700;
   font-size: 20px;
 }
-.pembungkus-deskripsi-3 p{
+.pembungkus-deskripsi-3 p {
   color: #717171;
   font-weight: 400;
   font-size: 12px;
 }
 
-.pembungkus-deskripsi-4{
+.pembungkus-deskripsi-4 {
   padding-left: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-.pembungkus-semua-4{
+.pembungkus-semua-4 {
   margin-top: 7px;
   padding-bottom: 50px;
   margin-right: 50px;
@@ -430,8 +428,8 @@ button:hover {
   /* background-color: #d7c7aa; */
 }
 
-.pembungkus-deskripsi-4 h3{
-  color: #4D4D4D;
+.pembungkus-deskripsi-4 h3 {
+  color: #4d4d4d;
   font-weight: 700;
   font-size: 20px;
   align-items: center;
@@ -442,7 +440,6 @@ button:hover {
   font-weight: 400px;
   font-size: 12px;
 }
-
 
 /* banner-3 */
 
@@ -467,7 +464,7 @@ button:hover {
   /* background-color: bisque; */
 }
 
-.belajar-3{
+.belajar-3 {
   padding-bottom: 100px;
 }
 .belajar-3 h1 {
@@ -497,12 +494,10 @@ button:hover {
   background-color: rgb(217, 128, 10);
 }
 
-
 /* TIM-HACKER */
 
 #tim-hacker {
-  background-color: #F5F7FA;
-  
+  background-color: #f5f7fa;
 }
 .container-tim-hacker {
   /* background-color: rgb(169, 169, 247); */
@@ -522,12 +517,12 @@ button:hover {
   /* background-color: bisque; */
 }
 
-.belajar-hacker{
-  background-color: #4d4d4d;
+.belajar-hacker {
+  /* background-color: #4d4d4d; */
 }
-.belajar-hacker h3{
-  padding-top:20px;
-  color: #FAA613;
+.belajar-hacker h3 {
+  padding-top: 20px;
+  color: #faa613;
   font-size: 20px;
   font-weight: 600;
 }
@@ -536,7 +531,7 @@ button:hover {
   font-size: 15px;
   letter-spacing: 1px;
 }
-.bawah{
+.bawah {
   padding-top: 20px;
   color: #717171;
   font-size: 15px;
@@ -544,42 +539,74 @@ button:hover {
 }
 
 .pembungkus-icon-hacker {
-  background-color: #faa613;
+  /* background-color: #faa613; */
   display: flex;
   padding-top: 50px;
 }
 
 .pembungkus-icon-hacker img {
+  /* background-color: aqua; */
   width: 30px;
   padding-right: 50px;
 }
 
+.pembungkus-icon-hacker a {
+  text-decoration: none;
+  color: #faa613;
+  font-size: 15px;
+  font-weight: 700;
+}
 
+/* apa yang baru */
 
+#apa-yang-baru {
+  /* background-color: #faa613; */
+  margin-top: 50px;
+}
 
+.container-apa-yang-baru {
+  /* background-color: #67512c; */
 
+  margin-left: 200px;
+  margin-right: 200px;
+}
 
+.isi-yang-baru {
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 35px;
+  color: #4d4d4d;
+  text-align: center;
+  padding-bottom: 30px;
+}
 
-
-
+.lorem {
+  color: #717171;
+  font-size: 11px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-right: 300px;
+  padding-left: 300px;
+}
 
 #height {
   height: 50vh;
 }
 
-.icon-menu{
+.icon-menu {
   display: none;
 }
 @media only screen and (max-width: 745px) {
-  .icon-menu{
+  .icon-menu {
     display: block;
   }
 
-  .list-navigasi{
+  .list-navigasi {
     display: none;
   }
 
-  .container-banner img{
+  .container-banner img {
     display: none;
   }
 }

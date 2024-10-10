@@ -1,0 +1,70 @@
+#card{
+    /* background-color: blue; */
+    width: 700px;
+    
+
+
+
+}
+.container{
+    /* background-color: aliceblue; */
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.bagian-image{
+    position: relative;
+
+    
+}
+.bagian-image img{
+   width: 100%;
+   border-radius: 20px;
+    
+
+}
+.Featured{
+    background-color: #eb5757;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  
+}
+.bagian-text{
+    overflow: scroll;
+    padding: 10px;
+    height: 200px;
+}
+.bagian-text h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    color: black;
+    font-weight: 300px;
+    font-style: normal;
+}
+
+.bagian-text p{
+    font-size: 15px;
+    color: grey;
+    
+}
+
+.bagian-text button{
+    color: white;
+    border: none;
+    background-color: orangered;
+    padding: 10px 15px 10px 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+}

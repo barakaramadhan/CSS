@@ -1,0 +1,30 @@
+.container {
+  width: 500px;
+  height: 300px;
+  border: 5px solid black;
+  margin: 30px auto;
+  padding: 2px;
+  display: flex;
+  /* flex-wrap: wrap;
+    justify-content: space-around; */
+  align-content: center;
+}
+
+.container div {
+  margin: 2px;
+  width: 100px;
+  background-color: #ffe700;
+  height: 100px;
+}
+
+div .dua {
+  /* order: -1; */
+  /* flex: 1; */
+  align-self: end;
+}
+div .satu {
+  /* order: 3; */
+}
+div .empat {
+  align-self: start;
+}
